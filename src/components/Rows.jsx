@@ -4,7 +4,6 @@ const Rows = ({ name, id, stats, sprites, abilities, types, generation }) => {
   console.log({ name, id, stats, sprites, abilities, types, generation })
 
   return (
-
     <tr>
       <td>
         <div className="flex-shrink-0 h-10 w-10">
