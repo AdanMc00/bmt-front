@@ -18,7 +18,7 @@ const App = () => {
   return (
     <React.Fragment>
 
-      <Tables getAllPokemons={getAllPokemons} allPokemons={allPokemons}/>
+      <Tables  allPokemons={allPokemons}/>
 
     </React.Fragment>
   )

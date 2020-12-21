@@ -1,7 +1,7 @@
 import React from 'react'
 import Rows from './Rows'
 
-const Tables = ({ getAllPokemons, allPokemons }) => {
+const Tables = ({  allPokemons }) => {
 
   return (
     <React.Fragment>

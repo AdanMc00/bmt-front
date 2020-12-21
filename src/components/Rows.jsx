@@ -30,7 +30,7 @@ const Rows = ({ name, id, stats, sprites, abilities, types, generation }) => {
         {
           stats.length > 0 &&
           stats.map(stat => <div key={stats._id}
-                                 className="text-sm text-gray-900">{stat.stat.name}: {stat.base_stat}</div>
+                                 className="text-lg text-gray-900">{stat.stat.name}: {stat.base_stat}</div>
           )
         }
       </td>
